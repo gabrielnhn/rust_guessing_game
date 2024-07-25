@@ -1,0 +1,15 @@
+[package]
+name = "guessing"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+panic = 'abort'
+
+
+[profile.dev]
+panic = 'abort'
+
+[dependencies]
+rand = "0.9.0-alpha.1"
+typenum = "1.17.0"
